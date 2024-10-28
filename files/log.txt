@@ -1,0 +1,6 @@
+[2024-10-28 23:54:06] INFO message: <<Application started>>
+[2024-10-28 23:54:06] DEBUG message: <<Calling hello() method>>
+[2024-10-28 23:54:06] DEBUG message: <<Method hello() returnedWorld>>
+[2024-10-28 23:54:06] INFO message: <<Shutting down the application>>
+[2024-10-28 23:54:36] INFO message: <<Application started>>
+[2024-10-28 23:54:36] INFO message: <<Shutting down the application>>
