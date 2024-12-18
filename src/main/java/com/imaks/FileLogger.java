@@ -11,8 +11,11 @@ public class FileLogger implements Logger {
     private static volatile FileLogger instance;
     private FileLoggerConfiguration config;
     private String path;
+    private static int instanceCounter = 0;
 
     private FileLogger() {
+        instanceCounter++;
+        System.out.println("Number of FileLogger instances: " + instanceCounter);
     }
 
     public static FileLogger getInstance() {

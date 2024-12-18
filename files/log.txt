@@ -32,3 +32,19 @@
 [2024-12-18 13:11:54] DEBUG message: <<Calling hello() method>>
 [2024-12-18 13:11:54] DEBUG message: <<Method hello() returnedWorld>>
 [2024-12-18 13:11:54] INFO message: <<Shutting down the application>>
+[2024-12-18 13:25:58] INFO message: <<Application started>>
+[2024-12-18 13:25:58] DEBUG message: <<Calling hello() method>>
+[2024-12-18 13:25:58] DEBUG message: <<Method hello() returnedWorld>>
+[2024-12-18 13:25:58] INFO message: <<Shutting down the application>>
+[2024-12-18 13:27:13] INFO message: <<Application started>>
+[2024-12-18 13:27:13] DEBUG message: <<Calling hello() method>>
+[2024-12-18 13:27:13] DEBUG message: <<Method hello() returnedWorld>>
+[2024-12-18 13:27:13] INFO message: <<Shutting down the application>>
+[2024-12-18 13:28:03] INFO message: <<Application started>>
+[2024-12-18 13:28:03] DEBUG message: <<Calling hello() method>>
+[2024-12-18 13:28:03] DEBUG message: <<Method hello() returnedWorld>>
+[2024-12-18 13:28:03] INFO message: <<Shutting down the application>>
+[2024-12-18 13:29:04] INFO message: <<Application started>>
+[2024-12-18 13:29:04] DEBUG message: <<Calling hello() method>>
+[2024-12-18 13:29:04] DEBUG message: <<Method hello() returnedWorld>>
+[2024-12-18 13:29:04] INFO message: <<Shutting down the application>>
