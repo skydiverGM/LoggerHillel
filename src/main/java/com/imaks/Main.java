@@ -1,13 +1,14 @@
 package com.imaks;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         FileLoggerConfiguration config = FileLoggerConfigurationLoader.loadConfig(new FileInputStream("files/log.config"));
-        FileLogger logger = new FileLogger(config, config.getFilePath());
+        FileLogger logger = FileLogger.getInstance();
+        logger.setConfig(config);
+
+
         logger.info("Application started");
 
         String h = hello(logger);
